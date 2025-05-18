@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-dotenv
+passlib[bcrypt]
+python-jose[cryptography]
+alembic==1.12.1
+
+//run
+//python -m uvicorn app.main:app --reload
